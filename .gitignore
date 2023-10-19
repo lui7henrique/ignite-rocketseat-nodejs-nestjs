@@ -36,3 +36,10 @@ lerna-debug.log*
 
 
 data
+
+# Env 
+.env
+
+# 
+private.pem
+public.pem
