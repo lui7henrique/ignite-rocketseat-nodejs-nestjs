@@ -15,7 +15,6 @@ import { PrismaService } from '../../prisma/prisma.service'
 
 @Controller('/accounts')
 export class CreateAccountController {
-  // eslint-disable-next-line no-useless-constructor
   constructor(private prisma: PrismaService) {}
 
   @Post()
