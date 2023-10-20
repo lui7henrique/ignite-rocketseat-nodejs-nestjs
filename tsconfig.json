@@ -6,10 +6,10 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2017",
+    "target": "es2022",
     "sourceMap": true,
     "outDir": "./dist",
-    // "baseUrl": "./",
+    "baseUrl": "./",
     "incremental": true,
     "strict": true,
     "skipLibCheck": true,
@@ -18,5 +18,11 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@/": ["./src/*"]
+    },
+    "types": [
+      "vitest/globals"
+    ]
   }
 }
