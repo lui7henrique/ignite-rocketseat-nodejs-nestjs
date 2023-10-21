@@ -41,5 +41,7 @@ data
 .env
 
 # 
-private.pem
-public.pem
+private-key-base64.txt
+private-key.pem
+public-key-base64.txt
+public-key.pem
