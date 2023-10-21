@@ -28,6 +28,7 @@
     "@nestjs/passport": "^10.0.2",
     "@nestjs/platform-express": "^8.0.0",
     "@prisma/client": "5.4.2",
+    "@types/supertest": "^2.0.15",
     "bcryptjs": "^2.4.3",
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
@@ -54,6 +55,7 @@
     "eslint": "^8.51.0",
     "prisma": "^5.2.0",
     "source-map-support": "^0.5.20",
+    "supertest": "^6.3.3",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "^3.10.1",
     "typescript": "^5.2.2"
