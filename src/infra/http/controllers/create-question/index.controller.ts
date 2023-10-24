@@ -5,7 +5,7 @@ import { DuplicateSlugException } from '@/core/errors/errors/duplicate-slug.exce
 import { JwtAuthGuard } from '@/infra/auth/jwt-auth.guard'
 import { CurrentUser } from '@/infra/auth/current-user-decorator'
 import { UserPayload } from '@/infra/auth/jwt.strategy'
-import { PrismaService } from '@/infra/prisma/prisma.service'
+import { PrismaService } from '@/infra/database/prisma/prisma.service'
 
 import { ZodValidationPipe } from '../../pipes/zod-validation-pipe'
 

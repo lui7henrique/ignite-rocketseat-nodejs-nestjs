@@ -11,7 +11,7 @@ import { hash } from 'bcryptjs'
 
 import { ZodValidationPipe } from '../../pipes/zod-validation-pipe'
 import { CreateAccountBodySchema, createAccountBodySchema } from './schema'
-import { PrismaService } from '@/infra/prisma/prisma.service'
+import { PrismaService } from '@/infra/database/prisma/prisma.service'
 
 @Controller('/accounts')
 export class CreateAccountController {
