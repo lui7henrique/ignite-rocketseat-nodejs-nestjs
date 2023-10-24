@@ -8,8 +8,8 @@ import {
 import { JwtService } from '@nestjs/jwt'
 import { ZodValidationPipe } from '../../pipes/zod-validation-pipe'
 import { AuthenticateBodySchema, authenticateBodySchema } from './schema'
-import { PrismaService } from '../../prisma/prisma.service'
 import { compare } from 'bcryptjs'
+import { PrismaService } from '@/infra/prisma/prisma.service'
 
 @Controller('/sessions')
 export class AuthenticateController {
